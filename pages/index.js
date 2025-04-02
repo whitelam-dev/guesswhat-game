@@ -1,6 +1,4 @@
-﻿"use client";
-
-import React, { useState, useEffect } from "react";
+﻿import React, { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { v4 as uuidv4 } from "uuid";
 import { db, auth } from "@/lib/firebaseClient";
@@ -292,3 +290,4 @@ const GuessWhat = () => {
 };
 
 export default GuessWhat;
+
